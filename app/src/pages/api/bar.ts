@@ -1,4 +1,4 @@
-export async function get({params, request}) {
+export async function get() {
   return {
     body: JSON.stringify({
       name: 'Astro',
